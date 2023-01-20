@@ -1,0 +1,64 @@
+body {
+background-color: black;    
+}
+#Header {
+color: white;   
+text-align: center;
+font-size: 60px;
+text-decoration:underline; 
+}
+#FirstChapter{
+color: white;  
+}
+#Headine1{
+    color: white;  
+    font-size: 30px; 
+    margin-top: 7.5rem; 
+    text-decoration: underline;
+}
+#Datainput1{
+color:white;    
+background-color: transparent;
+border: 2px solid white; 
+width: 4rem;
+height: 2rem;
+margin-left: 0.5rem;   
+}
+#Datainput2{
+    color:white;    
+    background-color: transparent;
+    border: 2px solid white; 
+    width: 4rem;
+    height: 2rem; 
+    margin-left: 2rem;
+}
+#Nstberechnen{
+color:white;    
+background-color: transparent;
+border: 2px solid white;
+height: 2.4rem;
+width: 11rem;
+font-size: 15px;
+margin-left: 5rem;
+transition: 0.7s;    
+}
+#Nstberechnen:hover{
+cursor: pointer;
+background-color: #323232 ;    
+}
+#Nullestelle{
+display: none;    
+color:white;
+font-size: 22px;
+margin-left: 3rem;   
+}
+#Nullestellevis{   
+    color:white;
+    font-size: 22px;
+    margin-left: 3rem;   
+    }
+#Header2{
+color: white;
+font-size:30px;
+margin-top: 25rem;    
+}    
