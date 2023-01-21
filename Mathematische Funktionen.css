@@ -82,4 +82,74 @@ transition: 0.7s;
 #Plusfunction:hover{
 cursor: pointer;
 background-color: #323232 ;    
-}   
+}
+#Datainput3{
+display:none;    
+color:white;    
+background-color: transparent;
+border: 2px solid white; 
+width: 4rem;
+height: 2rem;
+margin-left: 0.5rem;
+margin-top: 1.2rem;   
+}
+#Datainput4{
+display:none;    
+color:white;    
+background-color: transparent;
+border: 2px solid white; 
+width: 4rem;
+height: 2rem;
+margin-left: 2rem;
+margin-top: 1.2rem;   
+}
+#NstberechnenØ{
+display: none;    
+color:white;    
+background-color: transparent;
+border: 2px solid white;
+height: 2.4rem;
+width: 11rem;
+font-size: 15px;
+margin-left: 6.75rem;
+transition: 0.7s;    
+}
+#NstberechnenØ:hover{
+cursor: pointer;
+background-color: #323232 ;    
+}
+#NullstelleØ{
+display: none;    
+color:white;
+font-size: 22px;
+margin-left: 3.5rem;    
+}
+#lfinfoØ{
+display: none;
+color: white;
+font-size: 22px;
+margin-left: 2.5rem;    
+}
+#Scnittpunktausrechnen{
+display: none;    
+color: white;
+background-color: transparent;
+border: 2px solid white;
+height: 2.4rem;
+width: 11rem;
+font-size: 15px;
+margin-top: 1rem;
+text-align: center;
+margin-left: 41%;
+transition: 0.7s;    
+}
+#Scnittpunktausrechnen:hover{
+cursor: pointer;
+background-color: #323232 ;    
+}
+#Schnittpunkt{
+text-align: center;
+color: white;
+font-size: 22px;
+margin-top: 2rem;    
+}    
