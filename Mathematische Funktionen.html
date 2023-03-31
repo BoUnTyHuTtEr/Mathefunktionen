@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mathematische Funktionen</title>
-    <link rel="stylesheet" href="Mathematische Funktionen.css">
-    <script src="Mathematische Funktionen.js"></script>
-    <link rel="shortcut icon" type="x-icon" href="Pisymbol.jfif">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathematische Funktionen</title>
+<link rel="stylesheet" href="Mathematische Funktionen.css">
+<script src="Mathematische Funktionen.js"></script>
+<link rel="shortcut icon" type="x-icon" href="Pisymbol.jfif">
 </head>
 <body>
 <div id="Header">
@@ -15,7 +15,7 @@ Mathematische Funktionen
 </div>
 <div id="FirstChapter">
 <div id="Headine1">
-    1.Lineare Funktionen    
+1.Lineare Funktionen    
 </div> 
 <input type="number" id="Datainput1" placeholder="m" onblur="Lfunctioninfo()" >
 <input type="number" id="Datainput2" placeholder="t">
@@ -37,16 +37,31 @@ Nullstelle berechnen
 <span id="NullstelleØ">
 Die Nullstelle liegt bei S(|0)    
 </span>
-<div id="Schnittpunkt">
-Hier sollte der Schnittpunkt stehen
-</div>
-<div>
+<div >
 <button id="Scnittpunktausrechnen" type="button" onclick="Scnittpunktausrechnen()">
 Scnittpunkt berechnen
-</button>    
+</button> 
+<span id="Schnittpunkt">Hier sollte der Schnittpunkt stehen</span>    
 </div>
 <div id="SecondChapter">
 <div id="Header2">2.Gebrochen Rationale Funktionen</div>    
-</div>    
+</div>
+<div id="Thirdchapter">
+<div id="Header3">3.Quadratische Funktion</div>
+<input type="number" id="Qdatainput1" placeholder="a">
+<input type="number" id="Qdatainput2" placeholder="b">
+<input type="number" id="Qdatainput3" placeholder="c">
+<input type="number" id="Qdatainput4" placeholder="d">
+<input type="number" id="Qdatainput5" placeholder="e">
+<button id="Plusqfunction" onclick="Plusqfunction()">+</button>
+<button id="Scheitelpunktform" onclick="StoAllform()">S</button>
+<button id="QNullstellen" onclick="Qnullstellen()">Nullstellen berechnen</button>
+<span id="Qnullstellen"></span>
+<br>
+<button id="QFunctioninfobutton">Informationen anzeigen</button>
+<span id="Qfunctioninfo"></span>
+<span id="Qfunctioninfo2"></span>   
+</div>
+<div id="endcard">Version Alpha 1.1</div>    
 </body>
 </html>
